@@ -42,9 +42,7 @@ Users can add a title and description for their notes.
 View and manage existing notes with edit and delete options.  
 ![My Notes](https://github.com/samreen-syed/Notes-App/blob/main/Screenshot%202025-02-13%20145405.png)  
 
-### 🔹 All Notes Display  
-Displays all notes created by the user in a structured format.  
-![All Notes](https://github.com/samreen-syed/Notes-App/blob/main/Screenshot%202025-02-13%20145305.png)  
+ 
 
 ---
 
