@@ -28,19 +28,23 @@ Built with **React.js for the frontend, Node.js/Express.js for the backend, and 
 
 ### 🔹 Home Page  
 Welcome screen with a clean interface and user-friendly navigation.  
-![Home Page](Screenshot%202025-02-13%20144815.png)  
+![Home Page](https://github.com/samreen-syed/Notes-App/blob/main/Screenshot%202025-02-13%20144815.png)  
 
 ### 🔹 Registration Page  
 Secure sign-up form with password confirmation.  
-![Register Page](Screenshot%202025-02-13%20145102.png)  
+![Register Page](https://github.com/samreen-syed/Notes-App/blob/main/Screenshot%202025-02-13%20145102.png)  
 
 ### 🔹 Create New Note  
 Users can add a title and description for their notes.  
-![Create Note](Screenshot%202025-02-13%20145153.png)  
+![Create Note](https://github.com/samreen-syed/Notes-App/blob/main/Screenshot%202025-02-13%20145153.png)  
 
 ### 🔹 My Notes Page  
 View and manage existing notes with edit and delete options.  
-![My Notes](Screenshot%202025-02-13%20145405.png)  
+![My Notes](https://github.com/samreen-syed/Notes-App/blob/main/Screenshot%202025-02-13%20145405.png)  
+
+### 🔹 All Notes Display  
+Displays all notes created by the user in a structured format.  
+![All Notes](https://github.com/samreen-syed/Notes-App/blob/main/Screenshot%202025-02-13%20145305.png)  
 
 ---
 
@@ -72,6 +76,9 @@ View and manage existing notes with edit and delete options.
 ### 🔹 Managing Notes
 - Click the **Edit** button to modify a note.
 - Click the **Delete** button to remove a note.
+
+### 🔹 Viewing All Notes
+- Navigate to the **All Notes** page to see all your created notes in one place.
 
 ### 🔹 Logout
 - Click the **Logout** button to sign out securely.
