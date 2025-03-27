@@ -11,7 +11,7 @@ function CreateNote() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/notes', 
+      await axios.post('http://https://notes-app-tgww.onrender.com/api/notes', 
         { title, description },
         { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }}
       );
