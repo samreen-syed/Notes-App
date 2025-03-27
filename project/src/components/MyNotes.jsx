@@ -14,7 +14,7 @@ function MyNotes() {
 
   const fetchNotes = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/notes', {
+      const response = await axios.get('http://https://notes-app-tgww.onrender.com/api/notes', {
         headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
       });
       setNotes(response.data);
