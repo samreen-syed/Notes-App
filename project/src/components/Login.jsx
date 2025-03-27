@@ -20,7 +20,7 @@ function Login({ setIsAuthenticated }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const response = await axios.post('http://https://notes-app-tgww.onrender.com/api/auth/login', formData);
       if (response.data.token) {
         localStorage.setItem('token', response.data.token);
         setIsAuthenticated(true);
