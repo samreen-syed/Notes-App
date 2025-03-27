@@ -27,7 +27,7 @@ function Register({ setIsAuthenticated }) {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register', {
+      const response = await axios.post('http://https://notes-app-tgww.onrender.com/api/auth/register', {
         email: formData.email,
         password: formData.password
       });
