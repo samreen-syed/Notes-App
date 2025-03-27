@@ -16,7 +16,7 @@ function EditNote() {
 
   const fetchNote = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/notes/${id}`, {
+      const response = await axios.get(`http://https://notes-app-tgww.onrender.com/api/notes/${id}`, {
         headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
       });
       setTitle(response.data.title);
